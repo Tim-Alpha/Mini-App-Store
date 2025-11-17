@@ -1,0 +1,8 @@
+{
+  "name": "miniapp-hello",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'bundle step (placeholder)'"
+  }
+}

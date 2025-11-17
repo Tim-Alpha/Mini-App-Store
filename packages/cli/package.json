@@ -1,0 +1,16 @@
+{
+  "name": "@miniapps/cli",
+  "version": "0.1.0",
+  "bin": {
+    "miniapps": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

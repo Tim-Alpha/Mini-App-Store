@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
+<rect x="10" y="10" rx="8" ry="8" width="780" height="300" fill="#f7f9fc" stroke="#e2e8f0"/>
+<text x="50" y="40" font-size="18" fill="#111827">Mini-Apps Platform Architecture</text>
+
+<rect x="40" y="70" width="220" height="110" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="70" y="95" font-size="14">Shell App (React Native)</text>
+<text x="70" y="115" font-size="12" fill="#475569">- Hermes engine</text>
+<text x="70" y="135" font-size="12" fill="#475569">- Sandbox & Bridge</text>
+
+<rect x="290" y="70" width="220" height="110" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="320" y="95" font-size="14">Mini-App Bundle</text>
+<text x="320" y="115" font-size="12" fill="#475569">- JS Code</text>
+<text x="320" y="135" font-size="12" fill="#475569">- Assets & Manifest</text>
+
+<rect x="540" y="70" width="220" height="110" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="570" y="95" font-size="14">Backend & Developer Portal</text>
+<text x="570" y="115" font-size="12" fill="#475569">- Hosting & CDN</text>
+<text x="570" y="135" font-size="12" fill="#475569">- Versioning & Review</text>
+
+<!-- arrows -->
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+  <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+</marker></defs>
+<line x1="260" y1="125" x2="290" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="510" y1="125" x2="540" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+</svg>
